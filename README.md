@@ -32,13 +32,13 @@
 *重点：模型复现、微调流程验证及新方案探索。*
 
 * ** 核心技术调研 (Core Research)**
-    *  **Wan2.1 深入学习：** 结合技术报告与源码分析架构
-    *  **新方向探索：** 调研 **StructXLIP** 表现，探讨其在保持商品结构特征方面的优势，评估其接入优化工序的可行性。
+    * [x] **Wan2.1 深入学习：** 结合技术报告与源码分析架构
+    * [x] **新方向探索：** 调研 **StructXLIP** 表现，探讨其在保持商品结构特征方面的优势，评估其接入优化工序的可行性。
 * ** 代码工程 (Engineering)**
-    *  跑通 Wan2.1 T2V 的推理过程
-    *  在 5090 Server 中配置 **DiffSynth Studio** 环境。
+    * [x] 跑通 Wan2.1 T2V 的推理过程
+    * [x] 在 5090 Server 中配置 **DiffSynth Studio** 环境。
 * ** 基础知识补全 (Knowledge)**
-    *  阅读 **Flow Matching** 与 **Rectified Flow** 论文，理解主流生成模型数学基础。
+    * [x] 阅读 **Flow Matching** 与 **Rectified Flow** 论文，理解主流生成模型数学基础。
 
 ---
 
