@@ -1,18 +1,18 @@
 # TeacherModel_FangZiWei
-# 🚀 E-commerce Video Generation & Editing (Wan2.1 + VACE)
+# E-commerce Video Generation & Editing (Wan2.1 + VACE)
 
 本项目致力于探索基于 **Wan2.1** 与 **VACE** 的视频生成与编辑技术，核心目标是**为电商平台提供高效的广告视频生成方案**。通过将商品参考图精准、高质量地嵌入目标视频，实现低成本、高效率的电商素材生产。
 
 ---
 
-## 🎯 项目核心愿景
+## 项目核心愿景
 * **高效替换：** 实现用户输入图片到目标视频的无缝转换。
 * **结构保持：** 确保生成视频能够完美保留电商商品的原始结构与细节质量。
 * **落地场景：** 自动化生成电商短视频广告，助力商家快速出片。
 
 ---
 
-## 📅 Weekly Schedule & Progress
+## Weekly Schedule & Progress
 
 ### Week 1: 熟悉项目背景及已有研究进展
 *重点：梳理核心技术栈，确立以“图片 $\rightarrow$ 视频”为核心的电商生成链路。*
