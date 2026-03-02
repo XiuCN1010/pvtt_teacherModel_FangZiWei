@@ -42,7 +42,7 @@
 
 ---
 
-## 📈 未来规划 (Next Steps)
+## 未来规划 (Next Steps)
 
 1.  **StructXLIP 集成实验：** 验证 StructXLIP 在 I2V (Image-to-Video) 任务中对复杂物体结构的编码精度。
 2.  **电商 Pipeline 构建：** 结合 Wan2.1 与微调后的 LoRA，搭建一套自动化的“商品图 -> 广告视频”工作流。
