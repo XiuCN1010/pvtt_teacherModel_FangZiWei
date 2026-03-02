@@ -20,8 +20,6 @@
 * ** 核心技术调研 (Core Research)**
     * [x] 阅读 **Wan2.1** 技术报告：*Open and Advanced Large-Scale Video Generative Models*。
     * [x] **项目定位梳理：** 确定将 AI 用于电商广告生成（参考图切换至目标视频），关注高效替换与结构稳定性。
-* ** 代码工程 (Engineering)**
-    * [x] 在 SuperPod 中配置 Wan2.1 开发环境。
 * ** 基础知识补全 (Knowledge)**
     * [x] 阅读 `global-optima-research` 相关仓库。
     * [x] 研读 **DiT** 论文：*Scalable Diffusion Models with Transformers*。
