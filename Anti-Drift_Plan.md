@@ -1,7 +1,4 @@
 # 实验可行性分析：DINO Anti-Drift 方向
-
-**日期**: 2026-03-28
-**基于**: `016_drift_quantification.md` + `Proposal_DINO_AntiDrift_WorldModel.md`
 **目的**: 梳理验证 Proposal 可行性与性能优化所需的数据、实验角度与具体方案
 
 ---
@@ -18,7 +15,7 @@
 | **Oasis 500M** | Minecraft 游戏录像 | 开源数据集，或用 MineRL 环境自动采集 | 中等资源需求 |
 | **Wan2.1 + DiffSynth** | 通用视频 + 动作标注 | 本地已有代码 (`/e/IP-2026-Spring_Source/`) | 大模型，需集群资源 |
 
-**建议先用 DIAMOND**，数据获取成本最低、单卡可跑，适合验证可行性。
+**先用 DIAMOND**，数据获取成本最低、单卡可跑，适合验证可行性。
 
 ### 1.2 评测数据（Drift 量化用）
 
