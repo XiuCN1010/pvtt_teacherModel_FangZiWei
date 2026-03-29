@@ -1,0 +1,33 @@
+{
+  "experiment": "DINO-Optimized WorldPlay-5B (Best-of-3)",
+  "date": "2026-03-29 17:20:59",
+  "method": "Best-of-3 chunk selection using DINO+PSNR reward",
+  "model": "WorldPlay-5B (WAN pipeline, distilled 4-step)",
+  "hardware": "RTX 5090 x4",
+  "scenes": {
+    "beach": {
+      "dino_adj_sim": 0.9806539416313171,
+      "dino_anchor_sim": 0.8996543288230896,
+      "dino_anchor_drop": "-15.3%",
+      "psnr_mean": 18.577470515507834,
+      "psnr_min": 16.68452479935022,
+      "composite": 0.617056694440107
+    },
+    "garden": {
+      "dino_adj_sim": 0.9889748096466064,
+      "dino_anchor_sim": 0.8693891763687134,
+      "dino_anchor_drop": "-24.8%",
+      "psnr_mean": 16.27680597855099,
+      "psnr_min": 14.224330409804129,
+      "composite": 0.5858919499103364
+    },
+    "mountain": {
+      "dino_adj_sim": 0.9983922839164734,
+      "dino_anchor_sim": 0.9794952273368835,
+      "dino_anchor_drop": "-2.3%",
+      "psnr_mean": 19.669398210438253,
+      "psnr_min": 15.968918848806798,
+      "composite": 0.6514495091675777
+    }
+  }
+}

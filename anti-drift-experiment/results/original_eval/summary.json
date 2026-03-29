@@ -1,0 +1,36 @@
+{
+  "experiment": "Original WorldPlay-5B Baseline Evaluation",
+  "date": "2026-03-29 16:34:13",
+  "model": "WorldPlay-5B (WAN pipeline, distilled 4-step)",
+  "hardware": "RTX 5090 x4 (32GB each)",
+  "resolution": "1280x704",
+  "fps": 16,
+  "num_chunks": 4,
+  "num_frames": 61,
+  "scenes": {
+    "beach": {
+      "dino_adj_sim": 0.9740167260169983,
+      "dino_anchor_sim": 0.9022932648658752,
+      "dino_anchor_drop": "-16.9%",
+      "psnr_mean": 18.480060638863012,
+      "psnr_min": 16.147004590050106,
+      "composite": 0.6144243984446307
+    },
+    "garden": {
+      "dino_adj_sim": 0.9889819622039795,
+      "dino_anchor_sim": 0.8969278335571289,
+      "dino_anchor_drop": "-19.0%",
+      "psnr_mean": 16.298484942074698,
+      "psnr_min": 14.206489038230323,
+      "composite": 0.591661974677516
+    },
+    "mountain": {
+      "dino_adj_sim": 0.9980974197387695,
+      "dino_anchor_sim": 0.9779638051986694,
+      "dino_anchor_drop": "-2.8%",
+      "psnr_mean": 18.978294723802442,
+      "psnr_min": 15.730066760584311,
+      "composite": 0.642761523646994
+    }
+  }
+}
