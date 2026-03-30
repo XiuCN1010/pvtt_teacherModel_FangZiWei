@@ -40,9 +40,29 @@
 
 ---
 
-## Week 3: 深入了解微调 与StruXLIP框架
+### Week 3: 深入了解微调 与StruXLIP框架
 *重点：模型复现、微调流程验证及新方案探索。*
 1.  [x] **StructXLIP 集成实验：** 通过文本结构化过滤提升模型处理丰富视觉结构图像的效果（边缘图和词表过滤），可整合至微调框架中，无推理成本。
 2.  [x] **了解Wan2.2 的配置与模型选择：** 较大的模型{Wan2.2-Animate-14B 和 PAI/Wan2.2-VACE-Fun-A14B（阿里团队）}。
 3.  [x] **数据选择：** DAVIS
 4.  [ ] **测试报告：** 测试Wan2.2模型在LoRA微调后的视频质量， 并分析可优化点。
+
+### Week 4: 测试修改潜码微调实现目标替换的可行性
+1.  [x] **实验验证微调后的可行性：** 手动改码后仍然能够正常输出-> LoRA 增加mask可行。
+2.  [x] **检查输出管道：** 检查重要潜码管道， 为后续跨图线潜码移植做准备。
+
+---
+
+# Anti-Video Drifting in generated interactive world
+
+---
+
+## Weekly Schedule & Progress
+
+### Week 5: Best-N 测试DINO Reward 后验优化
+1.  [x] **知识补全：** WorldPlay v1.5 及 现有的Visual Drifting 优化方案(Noise Augmentation, BAgger)。
+2.  [x] **DINO+PSNR复合 reward：** 在采用Best-of-N策略下，改善了部分场景的表现。
+* *后续跟进*
+   * 调整Best-of-N的N数量、Chunk、DINO Reward权重， 进行多重验证。
+   * 查看在更多场景中相较原模型的表现。
+   * 将reward signal透过RL加入到模型权重中。
